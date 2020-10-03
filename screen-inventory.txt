@@ -1,0 +1,10 @@
+x landing page 
+x signup page
+x nav bar with login fields and log out button
+x add activity form
+x edit activity form
+x dashboard w/ add/edit forms and navbar of activity categories and list of most recent activities and link to view all activities
+x category view page
+x activity detail view
+x add category form
+x edit category form

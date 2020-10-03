@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is an app that will help you keep track of when to water, feed, and prune your plants." />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Garden Tracker</title>
+  </head>
+  <body>
+    <nav role="navigation">
+      <button>Log Out</button>
+  </nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Garden Tracker</h1> 
+        </header>
+
+        <section>
+          <h3>Add an Activity</h3>
+          <form class="add-activity" aria-label="add-activity">
+            <fieldset>
+              <div class="flex-wrapper">
+                <label for="new-activity">Activity Name</label>
+                <input type="text" placeholder="activity name" id="new-activity"/>
+                <label for="new-date">Date</label>
+                <input type="date" id="new-date"/>
+                <label for="new-time">Time (optional)</label>
+                <input type="time" id="new-time"/>
+                <label for="new-note">Notes (optional)</label>
+                <textarea id="new-note" cols="30" rows="10"></textarea>
+
+                <label for="category">Category</label>
+                <select>
+                    <option value="">Choose a category</option>
+                    <option value="Watering">Watering</option>
+                    <option value="Feeding">Feeding</option>
+                    <option value="Pruning">Pruning</option>
+                    <option value="Harvesting">Harvesting</option>
+                </select>
+
+                <label for="plant">Plant</label>
+                <input type="text" id="plant"/>
+              </div>
+            </fieldset>
+          
+            <fieldset aria-label="sign-up">
+              <button type="submit" aria-label="save">Save</button>
+              <button type="reset" aria-label="cancel">Cancel</button>
+            </fieldset>
+          </form>
+        </section>
+
+    </main>
+    <footer role="content-info">Contact | Email | GitHub | LinkedIn</footer>  </body>
+</html>

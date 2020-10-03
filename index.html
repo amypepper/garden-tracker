@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is an app that will help you keep track of when to water, feed, and prune your plants." />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Garden Tracker</title>
+  </head>
+  <body>
+    <nav role="navigation">
+      <ul>
+        <li>
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </li>
+        <li>
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+        </li>
+      <li>
+        <button type="submit">Login</button>
+      </li>
+      <li>
+        <button>Log Out</button>
+      </li>
+      </ul>
+    </nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Garden Tracker</h1>
+            <h2>Grow better.</h2>
+        </header>
+
+        <section>
+            <h3>Track your activities</h3>
+            <p>[placeholder for screenshot of the activity list view]</p>
+            <p>View a history of your plant care activities by logging in and clicking on "View all activities."</p>
+            <p>You can sort the list by date, filter by plant name or activity category.</p>
+        </section>
+
+        <section>
+            <h3>Organize your activities</h3>
+            <p>[placeholder for category list view]</p>
+            <p>Sort your activities into categories; you can add, remove or rename categories at any time.</p>
+            <p>View all notes in a given category by clicking on the category name in the lefthand sidebar.</p>
+        </section>
+
+        <section>
+          <h3>Get Started</h3>
+          <form class="form" aria-label="signup-form">
+            <fieldset aria-label="email">
+              <div class="flex-wrapper">
+                <label for="new-email">email</label>
+                <input type="email" placeholder="email" id="new-email"/>
+              </div>
+            </fieldset>
+            <fieldset aria-label="password">
+                <div class="flex-wrapper">
+                  <label for="new-password" class="password">password</label>
+                  <input id="new-password" type="password" placeholder="new password" />
+               
+                  <label for="confirm-password" class="confirm-password-label">confirm password</label>
+                  <input id="confirm-password" type="password" placeholder="type password again" />
+                </div>
+          
+            </fieldset>
+            <fieldset aria-label="sign-up">
+              <button type="submit" aria-label="sign-up">Sign Up</button>
+            </fieldset>
+          </form>
+        </section>
+
+    </main>
+    <footer role="content-info">Contact | Email | GitHub | LinkedIn</footer>  </body>
+</html>
